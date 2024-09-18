@@ -12,7 +12,8 @@ const Container = styled(motion.div)`
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-color: ${(props) => props.theme.primary};
+  background-color: ${(props) =>
+    props.$bg === "light" ? "#38a5ff" : "#214199"};
 `;
 
 const MovingBackground = styled(motion.div)`
@@ -103,14 +104,14 @@ const Welcome = () => {
 
   return (
     <>
-      <Container>
+      <Container $bg={theme}>
         <MovingBackground
           $bg={theme}
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{
             x: {
-              duration: 60,
+              duration: 180,
               repeat: Infinity,
               repeatType: "mirror",
               ease: "linear",
@@ -123,10 +124,10 @@ const Welcome = () => {
             <MotionContainer>
               <JobTitle
                 initial={{ x: "0%" }}
-                animate={{ x: "-100%" }}
+                animate={{ x: "-300%" }}
                 transition={{
                   x: {
-                    duration: 10,
+                    duration: 30,
                     repeat: Infinity,
                     repeatType: "loop",
                     ease: "linear",

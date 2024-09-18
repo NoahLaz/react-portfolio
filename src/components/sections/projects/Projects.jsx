@@ -33,19 +33,19 @@ const data = [
     id: 2,
     icon: "fa-brands fa-app-store-ios",
     title: "Mobile Application Development",
-    desc: "We provide a range of mobile application development services including custom mobile development on Android platforms, building cross-platform apps, designing user experience and integrating novel mobile interfaces such as chat and voice",
+    desc: "This sections is still in developement, soon we will have dynamic list of all projects that I worked on. For now you can visit my Github.",
   },
   {
     id: 3,
     icon: "fa-solid fa-server",
     title: "Backend Development",
-    desc: "Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.",
+    desc: "This sections is still in developement, soon we will have dynamic list of all projects that I worked on. For now you can visit my Github.",
   },
   {
     id: 4,
     icon: "fa-solid fa-server",
     title: "Backend Development",
-    desc: "Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.",
+    desc: "This sections is still in developement, soon we will have dynamic list of all projects that I worked on. For now you can visit my Github.",
   },
 ];
 const Projects = () => {
